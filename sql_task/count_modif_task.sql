@@ -1,7 +1,7 @@
 -- Задача:
 /*
  Найти таблицы, в которых было много изменений (Insert, Update, Delete).
- Вывести в поорядке убывания.
+ Вывести в порядке убывания.
  */
 
 select table_name, (inserts + updates + deletes) modif
